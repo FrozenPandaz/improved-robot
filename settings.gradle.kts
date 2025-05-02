@@ -5,4 +5,6 @@
  * For more detailed information on multi-project builds, please refer to https://docs.gradle.org/8.11.1/userguide/multi_project_builds.html in the Gradle documentation.
  */
 
-rootProject.name = "test"
+rootProject.name = "java"
+
+include(":backend:api")

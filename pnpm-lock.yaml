@@ -39,6 +39,9 @@ importers:
       '@nx/eslint-plugin':
         specifier: 21.0.0-rc.2
         version: 21.0.0-rc.2(@babel/traverse@7.27.1)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(@typescript-eslint/parser@8.31.1(eslint@9.25.1(jiti@2.4.2))(typescript@5.7.3))(eslint-config-prettier@10.1.2(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(nx@21.0.0-rc.2(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))(typescript@5.7.3)
+      '@nx/gradle':
+        specifier: 21.0.0-rc.2
+        version: 21.0.0-rc.2(nx@21.0.0-rc.2(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@nx/js':
         specifier: 21.0.0-rc.2
         version: 21.0.0-rc.2(@babel/traverse@7.27.1)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.0.0-rc.2(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
@@ -1500,6 +1503,9 @@ packages:
     peerDependenciesMeta:
       '@zkochan/js-yaml':
         optional: true
+
+  '@nx/gradle@21.0.0-rc.2':
+    resolution: {integrity: sha512-n6E8K1z+5m+o0KZC8kbl69PVLRyHzf7RbHX/W+AHGmf6C2QuDC5X+nkWGBXeoKsDcsqeJB5NUf7iYkurLtDCIw==}
 
   '@nx/js@21.0.0-rc.2':
     resolution: {integrity: sha512-IWRXTYlIcRKNVWamdgkeP68NqsgTCgD88tRX8TieA0h/uTghn9snZhq860C44k/0UUvefWTU1e73izgHsx4gCQ==}
@@ -6946,6 +6952,12 @@ snapshots:
       - nx
       - supports-color
       - verdaccio
+
+  '@nx/gradle@21.0.0-rc.2(nx@21.0.0-rc.2(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))':
+    dependencies:
+      '@nx/devkit': 21.0.0-rc.2(nx@21.0.0-rc.2(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
+    transitivePeerDependencies:
+      - nx
 
   '@nx/js@21.0.0-rc.2(@babel/traverse@7.27.1)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.0.0-rc.2(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))':
     dependencies:
