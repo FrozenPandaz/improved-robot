@@ -31,6 +31,9 @@ jobs:
           node-version: 20
           cache: 'yarn'
 
+          
+      - run: corepack enable
+
       - run: yarn install --immutable
       - run: yarn playwright install --with-deps
       - uses: nrwl/nx-set-shas@v4
