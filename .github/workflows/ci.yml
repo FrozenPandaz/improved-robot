@@ -33,7 +33,7 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      - run: npm ci
+      - run: npm install
       - run: npm exec playwright install --with-deps
       - uses: nrwl/nx-set-shas@v4
 
